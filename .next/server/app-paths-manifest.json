@@ -1,4 +1,17 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/chatbot/route": "app/api/chatbot/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/chat-ui/page": "app/chat-ui/page.js",
+  "/aiops/page": "app/aiops/page.js",
+  "/document-search/analyze-sow/page": "app/document-search/analyze-sow/page.js",
+  "/auth/callback/page": "app/auth/callback/page.js",
+  "/document-search/page": "app/document-search/page.js",
+  "/document-search/analyze-rfp/page": "app/document-search/analyze-rfp/page.js",
+  "/document-search/generate-SOW-&-BAA/page": "app/document-search/generate-SOW-&-BAA/page.js",
   "/page": "app/page.js",
-  "/aiops/page": "app/aiops/page.js"
+  "/document-search/service-agreement/page": "app/document-search/service-agreement/page.js",
+  "/talent-acquisition/page": "app/talent-acquisition/page.js",
+  "/human-resources/page": "app/human-resources/page.js",
+  "/talent-acquisition-backup/page": "app/talent-acquisition-backup/page.js"
 }

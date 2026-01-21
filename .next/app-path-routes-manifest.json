@@ -1,0 +1,17 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/api/chatbot/route": "/api/chatbot",
+  "/favicon.ico/route": "/favicon.ico",
+  "/chat-ui/page": "/chat-ui",
+  "/aiops/page": "/aiops",
+  "/document-search/analyze-sow/page": "/document-search/analyze-sow",
+  "/auth/callback/page": "/auth/callback",
+  "/document-search/page": "/document-search",
+  "/document-search/analyze-rfp/page": "/document-search/analyze-rfp",
+  "/document-search/generate-SOW-&-BAA/page": "/document-search/generate-SOW-&-BAA",
+  "/page": "/",
+  "/document-search/service-agreement/page": "/document-search/service-agreement",
+  "/talent-acquisition/page": "/talent-acquisition",
+  "/human-resources/page": "/human-resources",
+  "/talent-acquisition-backup/page": "/talent-acquisition-backup"
+}

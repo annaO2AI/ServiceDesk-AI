@@ -1,0 +1,121 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/aiops",
+      "regex": "^/aiops(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/aiops(?:/)?$"
+    },
+    {
+      "page": "/auth/callback",
+      "regex": "^/auth/callback(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/auth/callback(?:/)?$"
+    },
+    {
+      "page": "/chat-ui",
+      "regex": "^/chat\\-ui(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/chat\\-ui(?:/)?$"
+    },
+    {
+      "page": "/document-search",
+      "regex": "^/document\\-search(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/document\\-search(?:/)?$"
+    },
+    {
+      "page": "/document-search/analyze-rfp",
+      "regex": "^/document\\-search/analyze\\-rfp(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/document\\-search/analyze\\-rfp(?:/)?$"
+    },
+    {
+      "page": "/document-search/analyze-sow",
+      "regex": "^/document\\-search/analyze\\-sow(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/document\\-search/analyze\\-sow(?:/)?$"
+    },
+    {
+      "page": "/document-search/generate-SOW-&-BAA",
+      "regex": "^/document\\-search/generate\\-SOW\\-&\\-BAA(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/document\\-search/generate\\-SOW\\-&\\-BAA(?:/)?$"
+    },
+    {
+      "page": "/document-search/service-agreement",
+      "regex": "^/document\\-search/service\\-agreement(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/document\\-search/service\\-agreement(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/human-resources",
+      "regex": "^/human\\-resources(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/human\\-resources(?:/)?$"
+    },
+    {
+      "page": "/talent-acquisition",
+      "regex": "^/talent\\-acquisition(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/talent\\-acquisition(?:/)?$"
+    },
+    {
+      "page": "/talent-acquisition-backup",
+      "regex": "^/talent\\-acquisition\\-backup(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/talent\\-acquisition\\-backup(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": []
+}
